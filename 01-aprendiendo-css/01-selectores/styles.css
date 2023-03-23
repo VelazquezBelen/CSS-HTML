@@ -1,0 +1,99 @@
+/*
+    Selectores
+*/
+
+/* Selector universal */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Selector de etiqueta */
+h1 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+footer a {
+    color: red;
+}
+
+/* Selector de id: son para aplicarle estilos a solo elemento */
+#descripcion,
+#titulo {
+    border: 3px solid black;
+    padding: 15px;
+}
+
+#titulo {
+    background-color: blue;
+    border: 3px dashed black;
+}
+
+/* Selector de clase: son para aplicarle estilos a muchos elementos */
+.parrafo {
+    font-style: italic;
+    /* text-decoration: underline; */
+    font-weight: bold;
+    padding: 10px;
+}
+
+.parrafo1 {
+    background-color: green;
+    color: white;
+}
+
+.parrafo2 {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Selector de atributo */
+#usuario form {
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* Selector hijo */
+#menu > li > a{
+    font-size: 18px;
+    text-decoration: none;
+    color: red;
+}
+
+/* Prioridad */
+#saludo h1 {
+    background-color: brown;
+}
+
+h1 {
+    background-color: purple !important;
+}

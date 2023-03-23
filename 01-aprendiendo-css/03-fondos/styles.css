@@ -1,0 +1,35 @@
+body {
+    background-color: #cccccc;
+    /*
+    background-image: url("./image/fondo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+    color: black;
+    text-align: justify;
+    text-indent: 15px;
+    /*
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    */
+}
+
+#caja {
+    border: 3px solid black;
+    padding: 10px;
+    background-color: rgb(130, 159, 238);
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    vertical-align: top;
+}
+
+h2 {
+    color: red;
+    background-color: white;
+    border: 3px solid black;
+}

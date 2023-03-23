@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>MI primera pagina</title>
+</head>
+<body>
+    <h1>Titulo de mi pagina</h1>
+    <h2>Bienvenidos a mi web</h2>
+    <p>
+        Minim pariatur dolore consectetur nisi mollit et cillum tempor Lorem sunt dolore cupidatat. 
+        Ex ullamco reprehenderit labore non qui. Quis consectetur laborum culpa incididunt nisi. Consequat 
+        laboris proident ipsum ipsum ipsum adipisicing minim eiusmod amet id eu consequat veniam. 
+        Elit nisi officia quis sit. Sint excepteur anim dolor pariatur.
+    </p>
+    <p>
+        Minim pariatur dolore consectetur nisi mollit et cillum tempor Lorem sunt dolore cupidatat. 
+        Ex ullamco reprehenderit labore non qui. <br/> <br/>Quis consectetur laborum culpa incididunt nisi. Consequat 
+        laboris proident ipsum ipsum ipsum adipisicing minim eiusmod amet id eu consequat veniam. 
+        Elit nisi officia quis sit. Sint excepteur anim dolor pariatur.
+    </p>
+    <p>
+        Minim pariatur dolore consectetur nisi mollit et cillum tempor Lorem sunt dolore cupidatat. 
+        Ex ullamco reprehenderit labore non qui. Quis consectetur laborum culpa incididunt nisi. Consequat 
+        laboris proident ipsum ipsum ipsum adipisicing minim eiusmod amet id eu consequat veniam. 
+        Elit nisi officia quis sit. Sint excepteur anim dolor pariatur.
+    </p>
+
+    <hr/>
+    <h2>Imagenes en HTML</h2>
+    <img 
+        src="images/depositphotos_153773816-stock-photo-castillo-moriscotandil.jpg" 
+        alt="Imagen de tandil" 
+        title="Foto de tandil"
+        width="355px"
+    >
+
+    <hr/>
+    <h3>Tercer encabezado de la pagina</h3>
+    <p>
+        Minim pariatur dolore consectetur nisi mollit et cillum tempor Lorem sunt dolore cupidatat. 
+        Ex ullamco reprehenderit labore non qui. 
+        <blockquote>
+            Quis consectetur laborum culpa incididunt nisi. Consequat 
+            laboris proident ipsum ipsum ipsum adipisicing minim eiusmod amet id eu consequat veniam. 
+            Elit nisi officia quis sit. Sint excepteur anim dolor pariatur.
+        </blockquote> 
+    </p>
+
+    <h3>Formulario</h3>
+    <form>
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">
+        </p>
+        <p>
+            <label for="descripcion">Descripción</label>
+            <textarea name="descripcion"></textarea>
+        </p>
+
+        <input type="radio" name="genero" value="masculino">Masculino<br/>
+        <input type="radio" name="genero" value="femenino">Femenino<br/>
+
+        <select name="generodos">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="nada">Nada</option>
+        </select>
+
+        <input type="submit" value="Enviar formulario">
+
+    </form>
+
+    <h3>Listado de frutas</h3>            
+    <ol>
+        <li>Manzana</li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ol>
+    <ul>
+        <li>Manzana
+            <ul>
+                <li>Roja</li>
+                <li>Verde</li>
+            </ul>
+        </li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ul>
+
+    <h3>Tablas</h3>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Pais</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td colspan="2">Perez</td>
+            <!-- colspan=2: tamaño de dos columnas -->
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>Peru</td>
+        </tr>
+    </table>
+</body>
+</html>
